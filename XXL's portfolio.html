@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiulin's Chia Portfolio</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about me</a>
+        <a href="#" class="logo"> 
+            <span>Xiulin Chia</span></a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+    <div class="center">
+      <div class="content">
+        <h3>Hi! I am <span class="highlight">Xiulin Chia</span></h3>
+        <a href="#portfolio" class="btn">Click</a>
+      </div>
+      <div class="shapes-container">
+        <div class="frame"><span2 style="font-size: 15px;">SolidWorks Design</span2></div>
+        <div class="frame"><span2 style="font-size: 15px;">AutoCad Design</span2></div>
+        <div class="frame"><span2 style="font-size: 15px;">UI Design</span2></div>
+        <div class="frame"><span2 style="font-size: 15px;"> Illustrator</span2></div>
+        <div class="frame"><span2 style="font-size: 15px;">Programming</span2></div>
+    </div>
+  </section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> me </h1>
+    
+    <div class="row">
+
+        <div class="image">
+            <img class="resized-image" src="images/xxl.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h1>Hi there! </h1><p>I'm a passionate and creative designer with 7 years of experience .
+                Collaboration and communication are key in my design process. 
+                I believe that through shared discussions and exchanging ideas, 
+                we can create breathtaking works together. </p>
+                
+                <p>In addition to my passion for design, 
+                I continuously pursue knowledge and skills enhancement. 
+                I stay updated on design trends and the latest tools 
+                and technologies to ensure I deliver the best design solutions.</p>
+                
+                <p>If you're looking for a passionate, 
+                creative, and imaginative designer, 
+                I'm excited to collaborate with you and create unique design pieces. 
+                Whether it's product, graphic design, or user interfaces, 
+                I can bring innovation and quality, adding visual allure to your projects. 
+                If you're interested in my work, feel free to contact me, 
+                and let's discuss how we can bring your design vision to life. </p>
+
+            <h2>SolidWorks</h2>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            <h2>AutoCAD</h2>
+                <div class="progress-bar2">
+                    <div class="progress2"></div>
+                </div>
+            <h2>UI Design</h2>
+                <div class="progress-bar3">
+                    <div class="progress3"></div>
+                </div>
+            <h2>Illustrator</h2>
+                <div class="progress-bar4">
+                    <div class="progress4"></div>
+                </div>
+            <h2>Programming</h2>
+                <div class="progress-bar5">
+                    <div class="progress5"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- portfolio section starts   -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> My <span>portfolio</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" onclick="goToNextPage()">
+            <span>01</span>
+            <img src="images/port-img1.jpg" alt="">
+            <div class="content">
+                <h3>solidWorks design</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <span>02</span>
+            <img src="images/port-img2.jpg" alt="">
+            <div class="content">
+                <h3>web design</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <span>03</span>
+            <img src="images/port-img3.jpg" alt="">
+            <div class="content">
+                <h3>web design</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <span>04</span>
+            <img src="images/port-img4.jpg" alt="">
+            <div class="content">
+                <h3>web design</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <span>05</span>
+            <img src="images/port-img5.jpg" alt="">
+            <div class="content">
+                <h3>web design</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <span>06</span>
+            <img src="images/port-img6.jpg" alt="">
+            <div class="content">
+                <h3>web design</h3>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> me </h1>
+
+    <div class="icons-container">
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>My email</h3>
+            <p>xiulin622@gmail.com</p>
+        </div>
+
+    <div class="row">
+
+        <form action="">
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="number" class="box">
+            <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Get in touch" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#about"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#portfolio"> <i class="fas fa-arrow-right"></i> portfolio </a>
+            <a href="#contact"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+            <h3>My services</h3>
+            <a href="#portfolio"> <i class="fas fa-check"></i> web design </a>
+            <a href="#portfolio"> <i class="fas fa-check"></i>solidWorks design </a>
+            <a href="#portfolio"> <i class="fas fa-check"></i> Illustrator</a>
+            <a href="#portfolio"> <i class="fas fa-check"></i> ui design </a>
+        </div>
+
+        <div class="box">
+            <h3>follow me</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
